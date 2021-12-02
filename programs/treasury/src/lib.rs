@@ -4,6 +4,8 @@ declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 
 const TRANSFER_SEED: &[u8] = b"transfer";
 
+//this is a spec for implementing a basic treasury contract on solana
+
 #[program]
 pub mod treasury {
     use super::*;
